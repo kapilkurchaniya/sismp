@@ -21,6 +21,8 @@ export function PublicHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
+
+  
   useEffect(() => {
     setMounted(true);
   }, []);

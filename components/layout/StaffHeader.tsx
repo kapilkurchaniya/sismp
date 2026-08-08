@@ -141,6 +141,7 @@ export function StaffHeader() {
         isOpen={showPasswordModal}
         onClose={() => setShowPasswordModal(false)}
       />
+      
     </>
   );
 }
